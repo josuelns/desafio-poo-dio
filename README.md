@@ -1,20 +1,40 @@
 # desafio-poo-dio
 
-> Modelar domínio com orientação a objetos e separação clara de responsabilidades.
+Modelagem **orientada a objetos** de um bootcamp de desenvolvimento: cursos, mentorias, desenvolvedores e conteúdos inscritos — com encapsulamento e composição.
 
-## Problema
-
-Modelar domínio com orientação a objetos e separação clara de responsabilidades.
-
-## Solução
-
-Desafio de POO da DIO com classes, encapsulamento e regras de negócio em Java.
+Desafio da **DIO** em Java puro, sem frameworks.
 
 ## Stack
 
-- Java
-- POO
+- Java · POO (herança, composição, encapsulamento)
+
+## Destaques
+
+- Hierarquia `Atividade` → `Curso` / `Mentoria`
+- `Bootcamp` agrupa conteúdos e gerencia inscrições de `Desenvolvedor`
+- Cálculo de horas totais de conteúdo por dev
+
+## Como rodar
+
+```bash
+# IntelliJ / IDE: executar App.java
+```
+
+## Estrutura
+
+```
+src/com/bootcamp/modelo/
+├── Atividade.java      → classe base
+├── Curso.java          → carga horária em horas
+├── Mentoria.java       → data agendada
+├── Desenvolvedor.java  → conteúdos inscritos
+└── Bootcamp.java       → orquestra inscrições
+```
+
+## Evolução
+
+Conceitos deste projeto evoluem para APIs Spring Boot como [tasks-api-spring](https://github.com/josuelns/tasks-api-spring) e [cloud-parking-spring](https://github.com/josuelns/cloud-parking-spring).
 
 ---
 
-[Ver no portfólio](https://josuelns.github.io/) · [josuelns](https://github.com/josuelns)
+[Portfólio](https://josuelns.github.io/) · [GitHub](https://github.com/josuelns)
